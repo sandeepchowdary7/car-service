@@ -13,7 +13,7 @@ public class Clients extends AuditModel {
     private int id;
 
     private String first_name;
-    private String last_ame;
+    private String last_name;
     private String middle_name;
     @Column(unique = true, nullable = false)
     private String email;
