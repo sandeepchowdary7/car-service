@@ -1,6 +1,7 @@
 package com.carservice.carservice.services;
 
 import com.carservice.carservice.models.Clients;
+import com.carservice.carservice.models.Shops;
 import com.carservice.carservice.repositories.ClientRepository;
 import org.springframework.stereotype.Service;
 
