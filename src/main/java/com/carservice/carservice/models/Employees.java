@@ -22,7 +22,7 @@ public class Employees extends AuditModel {
     @Column(unique = true, nullable = false)
     private String email;
     @Column(unique = true, nullable = false)
-    private String phone_umber;
+    private String phone_number;
     private String secondary_phone_number;
     private String gender;
     private String role;
