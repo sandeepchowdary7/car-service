@@ -1,14 +1,14 @@
 package com.carservice.carservice.controllers;
 
 import com.carservice.carservice.models.Employees;
-import com.carservice.carservice.services.EmployeeService;
+import com.carservice.carservice.services.EmployeeeService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class EmployeeController {
-    private EmployeeService employeeService;
+    private EmployeeeService employeeService;
 
-    public EmployeeController(EmployeeService employeeService) {
+    public EmployeeController(EmployeeeService employeeService) {
         this.employeeService = employeeService;
     }
 
